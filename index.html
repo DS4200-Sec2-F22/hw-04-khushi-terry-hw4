@@ -16,42 +16,43 @@
             <svg id="frame">
                 <line x1="100" y1="100" x2="100" y2="300"></line>
                 <line x1="100" y1="300" x2="300" y2="300"></line>
-                <circle id='c1'cx="120" cy="260" r='8' onclick="changeCircle(event)"></circle>
-                <circle id='c2'cx="140" cy="220" r='8'onclick="changeCircle(event)"></circle>
-                <circle id='c3'cx="220" cy="260" r='8'onclick="changeCircle(event)"></circle>
-                <circle id='c4'cx="280" cy="120" r='8'onclick="changeCircle(event)"></circle>
+                <circle id='(1,2)'cx="120" cy="260" r='8'></circle>
+                <circle id='(2,4)'cx="140" cy="220" r='8'></circle>
+                <circle id='(6,2)'cx="220" cy="260" r='8'></circle>
+                <circle id='(9,9)'cx="280" cy="120" r='8'></circle>
             </svg>
         </div>
         <div class="little-column">
             <div id="coordinates"></div>
+            <br><br>
             <form>
                 <label for="add-x">Select the x coordinate for the point you want to add.</label>
                 <select name="points" id="x-point">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
+                  <option id='x'value="1">1</option>
+                  <option id='x'value="2">2</option>
+                  <option id='x'value="3">3</option>
+                  <option id='x'value="4">4</option>
+                  <option id='x'value="5">5</option>
+                  <option id='x'value="6">6</option>
+                  <option id='x'value="7">7</option>
+                  <option id='x'value="8">8</option>
+                  <option id='x'value="9">9</option>
                 </select>
                 <br><br>
                 <label for="add-y">Select the y coordinate for the point you want to add.</label>
                 <select name="points" id="y-point">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
+                  <option id='y'value="1">1</option>
+                  <option id='y'value="2">2</option>
+                  <option id='y'value="3">3</option>
+                  <option id='y'value="4">4</option>
+                  <option id='y'value="5">5</option>
+                  <option id='y'value="6">6</option>
+                  <option id='y'value="7">7</option>
+                  <option id='y'value="8">8</option>
+                  <option id='y'value="9">9</option>
                 </select>
                 <br><br>
-                <input type="submit" value="Add point">
+                <input id='submit'type="submit" value="Add point">
             </form>
         </div>
     </div>
