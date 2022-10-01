@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis:60%;
+}
+
+.little-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#frame{
+    width:400px;
+    height:400px
+}
+
+line{
+    stroke:black;
+    stroke-width:5px;
+}
+
+circle:hover {
+    fill:greenyellow;
+}
+
+circle {
+    fill:black;
+}
+
+.circle-outline {
+    stroke:blueviolet;
+    stroke-width:3px;
+}
+
+.hide{
+    display:none;
+}

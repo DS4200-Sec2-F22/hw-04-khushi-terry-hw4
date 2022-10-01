@@ -3,12 +3,65 @@
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
+    <title>hw-04</title>
 </head>
 
 
 <body>
-
-
+<h1>hw-04: Event Handling</h1>
+<div id="container">
+    <div class="row">
+        <div class="column">
+            <svg id="frame">
+                <line x1="100" y1="100" x2="100" y2="300"></line>
+                <line x1="100" y1="300" x2="300" y2="300"></line>
+                <circle id='c1'cx="120" cy="260" r='8' onclick="changeCircle(event)"></circle>
+                <circle id='c2'cx="140" cy="220" r='8'onclick="changeCircle(event)"></circle>
+                <circle id='c3'cx="220" cy="260" r='8'onclick="changeCircle(event)"></circle>
+                <circle id='c4'cx="280" cy="120" r='8'onclick="changeCircle(event)"></circle>
+            </svg>
+        </div>
+        <div class="little-column">
+            <div id="coordinates"></div>
+            <form>
+                <label for="add-x">Select the x coordinate for the point you want to add.</label>
+                <select name="points" id="x-point">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+                <br><br>
+                <label for="add-y">Select the y coordinate for the point you want to add.</label>
+                <select name="points" id="y-point">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Add point">
+            </form>
+        </div>
+    </div>
+</div>
+<h2>References</h2>
+<ul>
+    <li>https://www.w3schools.com/tags/tag_select.asp</li>
+    <li>https://css-tricks.com/scale-svg/</li>
+</ul>
+<script src="main.js"></script>
 </body>
 
 </html>
