@@ -63,6 +63,7 @@ function addCircle(x, y) {
 
     circles[numCircles].addEventListener('click', changeCircle);
     numCircles+=1;
+    console.log(frame);
 }
 
 
