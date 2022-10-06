@@ -15,7 +15,7 @@ h2{
     flex-wrap: wrap;
     width: 100%;
   }
-  
+/* sets the 60:40 split of the columns*/ 
 .column {
     display: flex;
     flex-direction: column;
